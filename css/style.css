@@ -1,0 +1,103 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0;
+    background-color: white;
+  }
+  
+  /*Global */
+  .container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  }
+  
+
+header h1{
+    color: red;
+    background-color: white;
+    padding-left: 20px;
+}
+span{
+    color: green;
+}
+
+.heading{
+    display: inline-block;
+}
+
+nav{
+    float: right;
+    clear: both;
+}
+
+li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+.mass{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 5x;
+    font-size: 20px;
+}
+
+h2{
+    color: green;
+}
+
+p{
+ 
+    color: red;
+}
+
+h3{
+    color: rgb(218, 96, 96);
+}
+
+#display{
+    text-align: center;
+}
+
+.page-title{
+    text-align: center;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div{
+    padding: 10px 30px 10px 20px;
+
+}
+
+button{
+    background-color: red;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-color: red;
+}
+
+button a{
+    color: white;
+}
+
+.image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer{
+    color: green;
+    text-align: center;
+}
